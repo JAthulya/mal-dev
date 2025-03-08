@@ -33,7 +33,6 @@ void bytetoHexstore(const std::vector<BYTE> &bytearray, std::string &hexstring){
     hexstring = oss.str();
 }
     
-//saving byte in hex format
 std::vector<BYTE> hexStringToBytes(const std::string &hex){
     std::vector<BYTE> bytearray2;
     for(size_t i = 0; i< hex.length(); i += 2){
